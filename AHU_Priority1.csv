@@ -1,0 +1,81 @@
+sourceKey,targetKey,tisDisplayName
+ReturnAirTemperature,ReturnAirTemperature,Return Air Temp
+Expsn2EXVCmdPcntEXV1,ExvCommandPercentCircuit2,EXV Command Percent: Ckt 2
+EconMinPositionSptActive,OutdoorAirDamperMinimumPosition,Outdoor Air Damper Min Position: Active
+CmprsrCkt11NormlMassFlow,RefrigerantMassFlowPercentCircuit1,Refrigerant Mass Flow (%): Ckt 1
+CommunicationStatus,CommunicationState,Communication State
+Expsn2SuctSupeAvg,SuctionSuperheatTemperatureCircuit2,Suction Superheat Temp: Ckt 2
+HeatingCapacityPrimary,HeatOutputPercent,Heat Output %
+Compressor2BRunning,CompressorStatus2B,Compressor 2B Status
+SupplyFanOnOffControl,SupplyFanStartStop,Supply Fan Start/Stop
+OccupancyStatus,OccupancyActive,Occupancy: Active
+Compressor1BRunning,CompressorStatus1B,Compressor 1B Status
+BuildingStaticPresSpt,SpacePressureSetpoint,Space Press Setpoint
+FinalFilterStatus,DirtyFilterInput,Dirty Filter Input
+HumidificationStatus,SpaceHumidificationStatus,Space Humidification Status
+PriFilterDiffPressLocal,FilterDifferentialPressurePreFilter,Filter Differential Pressure: Pre-filter
+SuctionPressCkt1,SuctionRefrigerantPressureCkt1,Suction Refrigerant Pressure: Ckt1
+FinalFilterDiffPressLocal,FilterDifferentialPressureFinal,Filter Differential Pressure: Final
+DischPressCkt1,DischargeRefrigerantPressureCkt1,Discharge Refrigerant Pressure: Ckt1
+Expsn2EXVFlowAllwd,ExvFlowAllowedPercentCircuit2,EXV Flow Allowed (%): Ckt 2
+OutdoorAirRHActive,OutdoorAirRelativeHumidity,Outdoor Air Relative Humidity: Active
+Expsn1EXVCmdPcntEXV1,ExvCommandPercentCircuit1,EXV Command Percent: Ckt 1
+SpaceRelHumidityActive,SpaceRelativeHumidityActive,Space Relative Humidity: Active
+ExhaustFanProvingStatus,ReliefFanProvingStatus,Relief Fan Proving Status
+Expsn1SuctSupeStpt,SuctionSuperheatTemperatureSetpoint,Suction Superheat Temp: Setpt
+Ckt2ChargeEstiPctCkt1,RefrigerantChargeEstimatePercentCircuit2,Refrigerant Charge Estimate (%): Ckt 2
+EvapCircuit1Temp,EvaporatorRefrigerantTemperatureCkt1,Suction Saturated Refrigerant Temp: Ckt1
+RefrigerantLiquidLineTempCkt1,RefrigerantLiquidLineTemperatureCircuit1,Refrigerant Liquid Line Temp: Ckt 1
+DuctStaticPressureActive,SupplyAirPressure,Supply Air Press
+HeatCoolModeStatus,ModeActive,Mode: Active
+UcmDiagnosticPresentCritical,DiagnosticManualResetRequired,Diag: Manual Reset Required
+Circuit1AirFlowPercent,CondenserAirFlowPercentCircuit1,Condenser Air Flow (%): Ckt 1
+ExhaustDamperPosition,ExhaustActuatorOutput,Relief Actuator Output
+HeatCoolModeStatus,HeatCoolMode,Heat/Cool Mode
+ExvFlowAllowedPercentCircuit1,ExvFlowAllowedPercentCircuit1,EXV Flow Allowed (%): Ckt 1
+EvapCircuit2Temp,EvaporatorRefrigerantTemperatureCkt2,Suction Saturated Refrigerant Temp: Ckt2
+CmprsrCkt11CompVFDFreq,CompressorFrequency1A,Compressor 1A  Frequency
+OutdoorAirFlow,OutdoorAirFlow,Outdoor Air Flow
+OAMinimumAirFlowSptActive,OutdoorAirMinFlowSetpointActive,Outdoor Air Min Flow Setpoint: Active
+DischPressCkt2,DischargeRefrigerantPressureCkt2,Discharge Refrigerant Pressure: Ckt2
+OutdoorAirDamperPosition,OutdoorAirDamperOutput,Outdoor Air Damper Output
+SupplyFanProvingStatus,SupplyFanProvingStatus,Supply Fan Proving Status
+SpaceHumidificationSptActive,SpaceHumidificationSetpointActive,Space Humidification Setpoint: Active
+CmprsrCkt21NormlMassFlow,RefrigerantMassFlowPercentCircuit2,Refrigerant Mass Flow (%): Ckt 2
+CondenserCircuit2SatTemp,CondenserSatRefrigerantTemperatureCkt2,Discharge Saturated Refrigerant Temp: Ckt2
+RTUMaxHeatActive,ConstantVolumeOperation,Constant Volume Operation
+DischargeAirTemp,SupplyAirTemperature,Supply Air Temp
+SuctRefrigPressCkt2,SuctionRefrigerantPressureCkt2,Suction Refrigerant Pressure: Ckt2
+OutdoorAirRelHumidityLocal,OutdoorAirRelativeHumidityInput,Outdoor Air Relative Humidity: Input
+Expsn1SuctSupeAvg,SuctionSuperheatTemperatureCircuit1,Suction Superheat Temp: Ckt 1
+Compressor1ARunning,CompressorStatus1A,Compressor 1A Status
+ExhaustFanOnOffControl,ExhaustFanStatus,Relief Fan Start/Stop
+TotalPower,PowerUnit,Power: Unit
+Circuit2AirFlowPercent,CondenserAirFlowPercentCircuit2,Condenser Air Flow (%): Ckt 2
+HumidificationOutput,HumidificationOutputPercentage,Humidification Output %
+ReturnAirRHLocal,ReturnAirRelativeHumidityActive,Return Air Relative Humidity: Active
+SupplyAirFlowSpt,SupplyAirFlowSetpoint,Supply Air Flow Setpoint
+Expsn1EXVFlowAllwd,ExvFlowAllowedPercentCircuit1,EXV Flow Allowed (%): Ckt 1
+DehumidificationStatus,SpaceDehumidificationStatus,Space Dehumidification Status
+OutdoorAirTempActive,OutdoorAirTemperature,Outdoor Air Temp: Active
+ExhaustFanSpeed,ReliefFanSpeedOutput,Relief Fan Speed Output
+SpaceTempActive,SpaceTemperature,Space Temp
+UcmDiagnosticPresentService,DiagnosticAutomaticReset,Diag: Automatic Reset
+SpaceVocConcentration,SpaceVOCConcentration,Space VOC Concentration
+OutdoorAirTempLocal,OutdoorAirTemperatureInput,Outdoor Air Temp: Input
+Compressor2ARunning,CompressorStatus2A,Compressor 2A Status
+SupplyAirFlow,SupplyAirFlow,Supply Air Flow
+CondenserCircuit1SatTemp,CondenserSatRefrigerantTemperatureCkt1,Discharge Saturated Refrigerant Temp: Ckt1
+SplyAr1SplyFan1VFDRPM,SupplyFanSpeedRpm,Supply Fan Speed (RPM)
+MixedAirTemp,MixedAirTemperature,Mixed Air Temp
+SpaceDehumidificationSptActive,SpaceDehumidificationSetpointActive,Space Dehumidification Setpoint: Active
+DuctStaticPressureSpt,SupplyAirPressureSetpoint,Supply Air Press Setpoint
+FilterRunTimeHours,SupplyFanRuntime,Supply Fan Run Time
+SupplyFanSpeed,SupplyFanSpeed,Supply Fan Speed Output
+RefrigerantLiquidLineTempCkt2,RefrigerantLiquidLineTemperatureCircuit2,Refrigerant Liquid Line Temp: Ckt 2
+Ckt1ChargeEstiPctCkt1,RefrigerantChargeEstimatePercentCircuit1,Refrigerant Charge Estimate (%): Ckt 1
+SpaceBldStatPressActive,SpacePressureActive,Space Press
+SupplyFanPower,SupplyFanPower,Supply Fan Power
+ExvFlowAllowedPercentCircuit2,ExvFlowAllowedPercentCircuit2,EXV Flow Allowed (%): Ckt 2
+SpaceCo2ConcentrationActive,SpaceCO2Concentration,Space CO2 Concentration
+CoolingCapacityStatus,CoolOutputPercent,Cool Output %

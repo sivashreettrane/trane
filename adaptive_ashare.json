@@ -1,0 +1,133 @@
+{
+  "standard": "ASHARE1.0",
+  "airhandlers": {
+    "default": {
+      "ReturnAirTemperature": "ReturnAirTemperature",
+      "ExvCommandPercentCircuit2": "Expsn2EXVCmdPcntEXV1",
+      "OutdoorAirDamperMinimumPosition": "EconMinPositionSptActive",
+      "RefrigerantMassFlowPercentCircuit1": "CmprsrCkt11NormlMassFlow",
+      "CommunicationState": "CommunicationStatus",
+      "SuctionSuperheatTemperatureCircuit2": "Expsn2SuctSupeAvg",
+      "HeatOutputPercent": "HeatingCapacityPrimary",
+      "CompressorStatus2B": "Compressor2BRunning",
+      "SupplyFanStartStop": "SupplyFanOnOffControl",
+      "OccupancyActive": "OccupancyStatus",
+      "CompressorStatus1B": "Compressor1BRunning",
+      "SpacePressureSetpoint": "BuildingStaticPresSpt",
+      "DirtyFilterInput": "FinalFilterStatus",
+      "SpaceHumidificationStatus": "HumidificationStatus",
+      "FilterDifferentialPressurePreFilter": "PriFilterDiffPressLocal",
+      "SuctionRefrigerantPressureCkt1": "SuctionPressCkt1",
+      "FilterDifferentialPressureFinal": "FinalFilterDiffPressLocal",
+      "DischargeRefrigerantPressureCkt1": "DischPressCkt1",
+      "ExvFlowAllowedPercentCircuit2": "ExvFlowAllowedPercentCircuit2",
+      "OutdoorAirRelativeHumidity": "OutdoorAirRHActive",
+      "ExvCommandPercentCircuit1": "Expsn1EXVCmdPcntEXV1",
+      "SpaceRelativeHumidityActive": "SpaceRelHumidityActive",
+      "ReliefFanProvingStatus": "ExhaustFanProvingStatus",
+      "SuctionSuperheatTemperatureSetpoint": "Expsn1SuctSupeStpt",
+      "RefrigerantChargeEstimatePercentCircuit2": "Ckt2ChargeEstiPctCkt1",
+      "EvaporatorRefrigerantTemperatureCkt1": "EvapCircuit1Temp",
+      "RefrigerantLiquidLineTemperatureCircuit1": "RefrigerantLiquidLineTempCkt1",
+      "SupplyAirPressure": "DuctStaticPressureActive",
+      "ModeActive": "HeatCoolModeStatus",
+      "DiagnosticManualResetRequired": "UcmDiagnosticPresentCritical",
+      "CondenserAirFlowPercentCircuit1": "Circuit1AirFlowPercent",
+      "ExhaustActuatorOutput": "ExhaustDamperPosition",
+      "HeatCoolMode": "HeatCoolModeStatus",
+      "ExvFlowAllowedPercentCircuit1": "Expsn1EXVFlowAllwd",
+      "EvaporatorRefrigerantTemperatureCkt2": "EvapCircuit2Temp",
+      "CompressorFrequency1A": "CmprsrCkt11CompVFDFreq",
+      "OutdoorAirFlow": "OutdoorAirFlow",
+      "OutdoorAirMinFlowSetpointActive": "OAMinimumAirFlowSptActive",
+      "DischargeRefrigerantPressureCkt2": "DischPressCkt2",
+      "OutdoorAirDamperOutput": "OutdoorAirDamperPosition",
+      "SupplyFanProvingStatus": "SupplyFanProvingStatus",
+      "SpaceHumidificationSetpointActive": "SpaceHumidificationSptActive",
+      "RefrigerantMassFlowPercentCircuit2": "CmprsrCkt21NormlMassFlow",
+      "CondenserSatRefrigerantTemperatureCkt2": "CondenserCircuit2SatTemp",
+      "ConstantVolumeOperation": "RTUMaxHeatActive",
+      "SupplyAirTemperature": "DischargeAirTemp",
+      "SuctionRefrigerantPressureCkt2": "SuctRefrigPressCkt2",
+      "OutdoorAirRelativeHumidityInput": "OutdoorAirRelHumidityLocal",
+      "SuctionSuperheatTemperatureCircuit1": "Expsn1SuctSupeAvg",
+      "CompressorStatus1A": "Compressor1ARunning",
+      "ExhaustFanStatus": "ExhaustFanOnOffControl",
+      "PowerUnit": "TotalPower",
+      "CondenserAirFlowPercentCircuit2": "Circuit2AirFlowPercent",
+      "HumidificationOutputPercentage": "HumidificationOutput",
+      "ReturnAirRelativeHumidityActive": "ReturnAirRHLocal",
+      "SupplyAirFlowSetpoint": "SupplyAirFlowSpt",
+      "SpaceDehumidificationStatus": "DehumidificationStatus",
+      "OutdoorAirTemperature": "OutdoorAirTempActive",
+      "ReliefFanSpeedOutput": "ExhaustFanSpeed",
+      "SpaceTemperature": "SpaceTempActive",
+      "DiagnosticAutomaticReset": "UcmDiagnosticPresentService",
+      "SpaceVOCConcentration": "SpaceVocConcentration",
+      "OutdoorAirTemperatureInput": "OutdoorAirTempLocal",
+      "CompressorStatus2A": "Compressor2ARunning",
+      "SupplyAirFlow": "SupplyAirFlow",
+      "CondenserSatRefrigerantTemperatureCkt1": "CondenserCircuit1SatTemp",
+      "SupplyFanSpeedRpm": "SplyAr1SplyFan1VFDRPM",
+      "MixedAirTemperature": "MixedAirTemp",
+      "SpaceDehumidificationSetpointActive": "SpaceDehumidificationSptActive",
+      "SupplyAirPressureSetpoint": "DuctStaticPressureSpt",
+      "SupplyFanRuntime": "FilterRunTimeHours",
+      "SupplyFanSpeed": "SupplyFanSpeed",
+      "RefrigerantLiquidLineTemperatureCircuit2": "RefrigerantLiquidLineTempCkt2",
+      "RefrigerantChargeEstimatePercentCircuit1": "Ckt1ChargeEstiPctCkt1",
+      "SpacePressureActive": "SpaceBldStatPressActive",
+      "SupplyFanPower": "SupplyFanPower",
+      "SpaceCO2Concentration": "SpaceCo2ConcentrationActive",
+      "CoolOutputPercent": "CoolingCapacityStatus"
+    },
+    "/evox/equipment/dac/generic/16": {
+      "CommunicationState": {
+        "sourceKey": "CommunicationStatus",
+        "enum" : {"1": "UP"}
+      },
+      "CoolOutputPercent": {
+        "sourceKey": "CoolingCapacityEnable"
+      },
+      "CoolOutputPercent": {
+        "sourceKey": "CoolingCapacityEnable"
+      },
+      "SupplyAirTemperature": {
+        "sourceKey": "DischargeAirTemp"
+      },
+      "SupplyAirPressureSetpoint": {
+        "sourceKey": "DuctStaticPressureSpt"
+      }
+    },
+    "/evox/equipment/dac/generic/2": {
+      "CommunicationState": {
+        "sourceKey": "CommunicationStatus"
+      },
+      "HeatCoolMode": {
+        "sourceKey": "HeatCoolModeStatus"
+      },
+      "OutdoorAirFlow": {
+        "sourceKey": "OutdoorAirFlow"
+      }
+    }
+  },
+  "chillers": {
+    "/evox/equipment/chlr/generic/10": {
+      "ChilledWaterTemperatureSetpointActive": {
+        "sourceKey": "ActiveHeatCoolStptTemp"
+      },
+      "ChilledWaterTemperatureSetpointActive": {
+        "sourceKey": "ActualRunningCapacity"
+      },
+      "ChillerCurrentEnteringDrawRla": {
+        "sourceKey": "ActiveHeatCoolStptTemp"
+      },
+      "ChilledWaterTemperatureEntering": {
+        "sourceKey": "EvapEnterWaterTemp"
+      },
+      "CompressorRunning": {
+        "sourceKey": "ChillerRunningState"
+      }
+    }
+  }
+}

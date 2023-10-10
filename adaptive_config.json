@@ -1,0 +1,86 @@
+{
+    "standard": "MPT1.0",
+    "airhandlers": {
+        "/evox/equipment/dac/generic/1": {
+            "CommunicationState": {
+                "sourceKey": "CommunicationStatus",
+                "enum": {
+                    "1": "Down",
+                    "2": "Down",
+                    "3": "Unknown",
+                    "4": "Down"
+                },
+                "sourceTag": "Tag1"
+            },
+            "HeatCoolMode": {
+                "sourceKey": "HeatCoolModeStatus"
+            },
+            "HeatOutputPercent": {
+                "sourceKey": "HeatingCapacityPrimary"
+            },
+            "MixedAirTemperature": {
+                "sourceKey": "MixedAirTemp"
+            },
+            "OccupancyActive": {
+                "sourceKey": "OccupancyStatus"
+            },
+            "SupplyFanSpeed": {
+                "sourceKey": "SupplyFanSpeed"
+            }
+        },
+                "/evox/equipment/scc/ahu/1": {
+            "CommunicationState": {
+                "sourceKey": "CommunicationStatus",
+                "enum": {
+                    "1": "Down",
+                    "2": "Down",
+                    "3": "Unknown",
+                    "4": "Down"
+                },
+                "sourceTag": "Tag1"
+            },
+            "HeatCoolMode": {
+                "sourceKey": "HeatCoolModeStatus"
+            },
+            "HeatOutputPercent": {
+                "sourceKey": "HeatingCapacityPrimary"
+            },
+            "MixedAirTemperature": {
+                "sourceKey": "MixedAirTemp"
+            },
+            "OccupancyActive": {
+                "sourceKey": "OccupancyStatus"
+            },
+            "SupplyFanSpeed": {
+                "sourceKey": "SupplyFanSpeed"
+            }
+        },
+                "/evox/equipment/dac/generic/3": {
+            "CommunicationState": {
+                "sourceKey": "CommunicationStatus",
+                "enum": {
+                    "1": "Down",
+                    "2": "Down",
+                    "3": "Unknown",
+                    "4": "Down"
+                },
+                "sourceTag": "Tag1"
+            },
+            "HeatCoolMode": {
+                "sourceKey": "HeatCoolModeStatus"
+            },
+            "HeatOutputPercent": {
+                "sourceKey": "HeatingCapacityPrimary"
+            },
+            "MixedAirTemperature": {
+                "sourceKey": "MixedAirTemp"
+            },
+            "OccupancyActive": {
+                "sourceKey": "OccupancyStatus"
+            },
+            "SupplyFanSpeed": {
+                "sourceKey": "SupplyFanSpeed"
+            }
+        }
+    }
+}
